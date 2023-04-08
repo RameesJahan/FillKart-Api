@@ -1,36 +1,13 @@
 const express = require("express");
 const router = express.Router();
+const ProductsCtrl = require("../controller/products");
 
-router.get('/',(req,res,next) => {
-  res.status(200).json({
-    message: "Handling Products Get Requests"
-  });
-});
 
-// router.post('/',(req,res,next) => {
-//   res.status(200).json({
-//     message: "Handling Products Post Requests"
-//   });
-// });
+router.get('/',ProductsCtrl.apiGetProducts);
 
-router.get('/:id',(req,res,next) => {
-  const id = req.params.id;
-  res.status(200).json({
-    message: "Handling Products Get Requests of "+id
-  });
-});
+router.get('/view/:id', ProductsCtrl.apiGetOneProduct);
 
-router.get('/categories',(req,res,next) => {
-  res.status(200).json({
-    message: "Handling Products Categories Get Requests"
-  });
-});
-
-router.get('/categories/:name',(req,res,next) => {
-  const name = req.params.name;
-  res.status(200).json({
-    message: "Handling Products Categories Get Requests of "+name
-  });
-});
+router.get('/categories',ProductsCtrl.apiGetCategories);
+router.get('/categories/:name',ProductsCtrl.apiGetCategoryItems);
 
 module.exports = router;
