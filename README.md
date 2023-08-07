@@ -150,3 +150,10 @@ GET http://api.rameesjahan.me/products/categories/Laptops
 
 ```
 
+### Upcoming:
+
+- `/signin`
+- `/signup`
+- `/user`
+
+
