@@ -2,7 +2,7 @@
 
 This is Rest API for My E Commerce project called [FillKart](https://github.com/RameesJahan/FillKart)
 
-## Endpoints:
+## API Endpoints:
 
 #### 1.Get all Products
 Return list of all products.
