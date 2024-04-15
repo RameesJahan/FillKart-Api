@@ -8,7 +8,7 @@ This is Rest API for My E Commerce project called [FillKart](https://github.com/
 Return list of all products.
 
 ```
-GET http://api.rameesjahan.me/products
+GET /products
 
 ```
 
@@ -57,12 +57,12 @@ GET http://api.rameesjahan.me/products
 Return one product with given id.
 
 ```
-GET http://api.rameesjahan.me/products/view/_id
+GET /products/view/_id
 ```
 Example:
 
 ```
-GET http://api.rameesjahan.me/products/view/643159b2718b98370bd6f97f
+GET /products/view/643159b2718b98370bd6f97f
 ```
 ##### Output:
 ```
@@ -82,7 +82,7 @@ GET http://api.rameesjahan.me/products/view/643159b2718b98370bd6f97f
 Return list of categories.
 
 ```
-GET http://api.rameesjahan.me/products/categories
+GET /products/categories
 
 ```
 ##### Output:
@@ -100,13 +100,13 @@ GET http://api.rameesjahan.me/products/categories
 Return list of products that have given category
 
 ```
-GET http://api.rameesjahan.me/products/categories/category
+GET /products/categories/category
 
 ```
 
 Example:
 ```
-GET http://api.rameesjahan.me/products/categories/Laptops
+GET /products/categories/Laptops
 
 ```
 ##### Output:
