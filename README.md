@@ -2,6 +2,15 @@
 
 This is Rest API for My E Commerce project called [FillKart](https://github.com/RameesJahan/FillKart)
 
+## Run
+
+- Clone the repository.
+- Setup .env
+- Install dependencies: npm install
+- Configure MongoDB
+- Start the development server: npm run test
+- Open http://localhost:{PORT} in your browser.
+
 ## API Endpoints:
 
 #### 1.Get all Products
