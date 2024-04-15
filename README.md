@@ -6,7 +6,7 @@ This is Rest API for My E Commerce project called [FillKart](https://github.com/
 
 - Clone the repository.
 - Setup .env
-- Install dependencies: npm install
+- Install dependencies: ``` npm install ```
 - Configure MongoDB
 - Start the development server: ``` npm run test ```
 
