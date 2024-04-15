@@ -8,7 +8,7 @@ This is Rest API for My E Commerce project called [FillKart](https://github.com/
 - Setup .env
 - Install dependencies: npm install
 - Configure MongoDB
-- Start the development server: npm run test
+- Start the development server: ``` npm run test ```
 
 ## API Endpoints:
 
